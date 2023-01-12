@@ -17,6 +17,8 @@ img {
 
 .container {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -27,11 +29,22 @@ img {
 
 .row-music{
     flex-grow: 1;
-    border-color: var(--blue);
+    background-color: var(--blue);
+    display: flex;
 }
 
 .row-played {
     flex-shrink: 0;
     padding: 30px;
     background-color: var(--grey);
+}
+
+.col-nav {
+    padding: 50px;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+.col-music {
+    flex-grow: 1;
 }
