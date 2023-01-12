@@ -38,6 +38,8 @@ img {
     padding: 10px;
     background-color: var(--grey);
     display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
 .col-nav {
@@ -62,6 +64,62 @@ img {
 }
 
 .name-song {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 13px;
+}
+
+.name-song strong {
+    font-size: 15px;
+}
+
+.name-song p {
+    color: grey;
+}
+
+.icon-sinistersong {
+    padding-left: 25px;
+    color: grey;
+}
+
+.col-changesong {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.slash-minutesong {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-play {
+    font-size: 35px;
+}
+
+.icon-managesong {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.slash-song {
+    border-bottom: 3px solid white;
+    padding: 0px 200px;
+    border-radius: 50px;
+}
+
+.col-volumesong {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.slash-volume {
+    border-bottom: 3px solid white;
+    padding: 0px 50px;
 }
