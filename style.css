@@ -5,5 +5,33 @@
 }
 
 :root {
-    --
+    --blue: rgb(20,25,34);
+    --grey: rgb(40,40,40);
+    --blacklight: rgb(8,11,18);
+    --green: rgb(173,255,47);
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    height: 100vh;
+}
+
+
+/****************
+      MAIN
+*****************/
+
+
+.row-music{
+    flex-grow: 1;
+    border-color: var(--blue);
+}
+
+.row-played {
+    flex-shrink: 0;
+    padding: 30px;
+    background-color: var(--grey);
 }
