@@ -35,16 +35,33 @@ img {
 
 .row-played {
     flex-shrink: 0;
-    padding: 30px;
+    padding: 10px;
     background-color: var(--grey);
+    display: flex;
 }
 
 .col-nav {
-    padding: 50px;
+    padding: 60px;
     background-color: black;
     flex-shrink: 0;
 }
 
 .col-music {
     flex-grow: 1;
+}
+
+.col-namesong {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
+.img-song {
+    width: 50px;
+}
+
+.name-song {
+    font-size: 12px;
+    line-height: 16px;
 }
