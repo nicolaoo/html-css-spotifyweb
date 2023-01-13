@@ -15,22 +15,24 @@ img {
     max-width: 100%;
 }
 
-.container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 
 /****************
       MAIN
 *****************/
 
+/* Strart Row Played */
 
-.row-music{
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content{
     flex-grow: 1;
     background-color: var(--blue);
     display: flex;
+    overflow: hidden;
 }
 
 .row-played {
@@ -40,16 +42,20 @@ img {
     display: flex;
     justify-content: space-between;
     color: white;
+    overflow: hidden;
 }
 
-.col-nav {
-    padding: 60px;
+.sidebar {
     background-color: black;
     flex-shrink: 0;
+    overflow: hidden;
+    flex-basis: 230px;
 }
 
 .col-music {
     flex-grow: 1;
+    overflow: auto;
+    width: calc(100% - 230px);
 }
 
 .col-namesong {
@@ -76,7 +82,7 @@ img {
 }
 
 .icon-sinistersong {
-    padding-left: 25px;
+    padding-left: 35px;
     color: grey;
 }
 
@@ -123,3 +129,20 @@ img {
     border-bottom: 3px solid white;
     padding: 0px 50px;
 }
+
+@media screen and (max-width: 550px) {
+    
+    .sidebar {
+        flex-basis: 50px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .row-played{
+        width: 100%;
+    }
+}
+
+
+/* end Row Played */
