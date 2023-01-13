@@ -75,7 +75,11 @@ ul {
     color: var(--grey);
 }
 
-
+.name-playlist li:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 
 
