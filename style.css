@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;600;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html  {
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
