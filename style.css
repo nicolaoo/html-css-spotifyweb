@@ -266,14 +266,6 @@ a {
     width: calc(100% - 230px);
 }
 
-/* .container-johndoe, */
-.container-popular-artist{
-/* .title-johndoe { */
-    padding: 30px;
-    border: 1px solid red;
-}
-
-
 .row-upgrade {
     display: flex;
     justify-content: end;
@@ -331,12 +323,33 @@ a {
     padding-top: 10px;
 }
 
-.title-johndoe {
+.title-johndoe,
+.title-artpopular {
     padding-left: 20px;
     padding-top: 40px;
+    font-weight
 }
 
-.container-johndoe {
+.title-johndoe h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.title-artpopular h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.title-johndoe p {
+    color: grey;
+}
+
+.title-artpopular p {
+    color: grey;
+}
+
+.container-johndoe,
+.container-artpopular {
     display: flex;
     gap: 15px;
     text-align: center;
@@ -345,8 +358,21 @@ a {
     padding-top: 30px;
 }
 
+.container-johndoe,
+.container-artpopular h3 {
+    padding-top: 20px;
+}
+
 .container-johndoe figure {
-    flex-basis: calc(100% / 6);
+    flex-basis: calc(100% / 6 - 13px);
+}
+
+.container-artpopular figure {
+    flex-basis: calc(100% / 6 - 13px);
+}
+
+.container-artpopular img {
+    border-radius: 100%;
 }
 
 /* end main-content */
