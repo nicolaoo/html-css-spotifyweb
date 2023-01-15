@@ -266,8 +266,9 @@ a {
     width: calc(100% - 230px);
 }
 
-.container-johndoe,
-.container-popular-artist {
+/* .container-johndoe, */
+.container-popular-artist{
+/* .title-johndoe { */
     padding: 30px;
     border: 1px solid red;
 }
@@ -307,7 +308,7 @@ a {
 }
 
 .container-song { 
-    flex-basis: calc(100% / 6);
+    flex-basis: calc(100% / 6 - 13px);
 }
 
 .content-song {
@@ -316,6 +317,8 @@ a {
     padding-left: 20px;
     padding-top: 25px;
     text-align: center;
+    gap: 15px;
+    padding-right: 30px;
 }
 
 .container-song h4 {
@@ -328,5 +331,22 @@ a {
     padding-top: 10px;
 }
 
+.title-johndoe {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.container-johndoe {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.container-johndoe figure {
+    flex-basis: calc(100% / 6);
+}
 
 /* end main-content */
