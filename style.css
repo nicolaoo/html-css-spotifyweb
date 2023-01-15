@@ -26,6 +26,9 @@ ul {
     list-style-type: none;
 }
 
+.logo-mobile {
+   display: none;
+}
 
 /****************
       MAIN
@@ -110,8 +113,6 @@ ul {
 
 
 
-
-
 /* end sidebar */
 
 
@@ -123,7 +124,7 @@ ul {
     height: 100vh;
 }
 
-.main-content{
+.content{
     flex-grow: 1;
     background-color: var(--blue);
     display: flex;
@@ -231,19 +232,37 @@ ul {
     padding: 0px 50px;
 }
 
-@media screen and (max-width: 550px) {
-    
-    .sidebar {
-        flex-basis: 50px;
-    }
-
-}
 
 @media screen and (max-width:900px) {
     .row-played{
-        width: 100%;
+        width: 100vw;
     }
 }
 
+@media screen and (max-width:550px) {
+    .sidebar {
+        flex-basis: 50px;
+        padding: 0;
+    }
+    
+    .nav, 
+    .profile {
+        display: none;
+    }
+
+    .sidebar .logo {
+        background-image: url("./img/favicon.ico");
+    }
+}
 
 /* end Row Played */
+
+/* Strart nav-content */
+
+
+
+
+
+
+
+/* end nav-content */
