@@ -266,9 +266,6 @@ a {
     width: calc(100% - 230px);
 }
 
-.row-upgrade,
-.nav-content,
-.title-recently,
 .container-song,
 .container-johndoe,
 .container-popular-artist {
@@ -300,6 +297,14 @@ a {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
+    padding-top: 20px;
 }
+
+.title-recently {
+    padding: 45px 0 35px 20px;
+    color: white;
+}
+
+
 
 /* end main-content */
