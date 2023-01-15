@@ -266,12 +266,12 @@ a {
     width: calc(100% - 230px);
 }
 
-.container-song,
 .container-johndoe,
 .container-popular-artist {
     padding: 30px;
     border: 1px solid red;
 }
+
 
 .row-upgrade {
     display: flex;
@@ -301,10 +301,32 @@ a {
 }
 
 .title-recently {
-    padding: 45px 0 35px 20px;
     color: white;
+    padding-left: 20px;
+    padding-top: 45px;
 }
 
+.container-song { 
+    flex-basis: calc(100% / 6);
+}
+
+.content-song {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.container-song h4 {
+    color: white;
+    padding-top: 20px;
+}
+
+.container-song p {
+    color: grey;
+    padding-top: 10px;
+}
 
 
 /* end main-content */
