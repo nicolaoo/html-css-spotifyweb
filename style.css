@@ -59,6 +59,7 @@ ul {
 .playlist h3 {
     padding-bottom: 15px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .name-playlist {
@@ -73,7 +74,7 @@ ul {
 
 .color-menu,
 .name-playlist {
-    color: var(--grey);
+    color: grey;
 }
 
 .name-playlist li:first-child {
@@ -97,12 +98,14 @@ ul {
     font-size: 18px;
     align-items: center;
     font-weight: 700;
+    margin-bottom: -20px;
 }
 
 .icon-person {
-    width: 30px;
-    background-color: var(--grey);
+    width: 35px;
+    background-color: grey;
     border-radius: 20px;
+    aspect-ratio: 1;
 }
 
 
