@@ -26,6 +26,11 @@ ul {
     list-style-type: none;
 }
 
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
 .logo-mobile {
    display: none;
 }
@@ -154,11 +159,7 @@ ul {
     font-weight: 600;
 }
 
-.col-music {
-    flex-grow: 1;
-    overflow: auto;
-    width: calc(100% - 230px);
-}
+
 
 .col-namesong {
     display: flex;
@@ -257,12 +258,48 @@ ul {
 
 /* end Row Played */
 
-/* Strart nav-content */
+/* Strart main-content */
 
+.main-content {
+    flex-grow: 1;
+    overflow: auto;
+    width: calc(100% - 230px);
+}
 
+.row-upgrade,
+.nav-content,
+.title-recently,
+.container-song,
+.container-johndoe,
+.container-popular-artist {
+    padding: 30px;
+    border: 1px solid red;
+}
 
+.row-upgrade {
+    display: flex;
+    justify-content: end;
+    background-color: var(--blacklight);
+    padding: 20px;
+}
 
+.row-upgrade a {
+    border: 1px solid white;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
+.list-nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
 
-
-/* end nav-content */
+/* end main-content */
