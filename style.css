@@ -116,6 +116,9 @@ a {
     aspect-ratio: 1;
 }
 
+@media screen and (max-width:550px) {
+    
+}
 
 
 /* end sidebar */
@@ -188,6 +191,7 @@ a {
 .icon-sinistersong {
     padding-left: 35px;
     color: grey;
+    text-align: center;
 }
 
 .col-changesong {
@@ -239,24 +243,30 @@ a {
 
 
 @media screen and (max-width:900px) {
-    .row-played{
-        width: 100vw;
+   
+}
+
+@media screen and (max-width:730px) {
+    .row-played {
+        gap: 10px;
     }
 }
 
 @media screen and (max-width:550px) {
-    .sidebar {
-        flex-basis: 50px;
-        padding: 0;
-    }
-    
-    .nav, 
-    .profile {
-        display: none;
+    .icon-managesong {
+        gap: 20px;
     }
 
-    .sidebar .logo {
-        background-image: url("./img/favicon.ico");
+    .sidebar {
+        flex-basis: 50px;
+    }
+
+    .icon-sinistersong {
+        padding-left: 0;
+    }
+
+    .col-volumesong {
+        gap: 15px;
     }
 }
 
