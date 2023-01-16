@@ -117,7 +117,26 @@ a {
 }
 
 @media screen and (max-width:550px) {
-    
+    .playlist {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+    }
+
+    .menu p {
+        display: none;
+    }
+
+    .profile p {
+        display: none;
+    }
+
 }
 
 
@@ -259,6 +278,8 @@ a {
 
     .sidebar {
         flex-basis: 50px;
+        padding: 5px;
+        align-items: center;
     }
 
     .icon-sinistersong {
@@ -267,6 +288,18 @@ a {
 
     .col-volumesong {
         gap: 15px;
+    }
+
+    .download {
+        justify-content: center;
+    }
+
+    .icon-menu {
+        width: 32px;
+    }
+
+    .person {
+        margin-bottom: 0;
     }
 }
 
