@@ -166,6 +166,7 @@ a {
     gap: 10px;
     align-items: center;
     color: white;
+    flex-basis: 230px;
 }
 
 .img-song {
@@ -190,12 +191,7 @@ a {
 }
 
 .col-changesong {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
+    flex-basis: 35%;
 }
 
 .slash-minutesong {
@@ -211,21 +207,29 @@ a {
 .icon-managesong {
     display: flex;
     gap: 30px;
-    color: white;
     font-size: 20px;
     align-items: center;
+    justify-content: center;
 }
 
 .slash-song {
-    border-bottom: 3px solid white;
-    padding: 0px 200px;
-    border-radius: 50px;
+    background-color: grey;
+    flex-grow: 1;
+    border-radius: 999px;
+}
+
+.slash-white {
+    background-color: white;
+    height: 4px;
+    width: 23%;
+    border-radius: 999px;
 }
 
 .col-volumesong {
     display: flex;
     gap: 20px;
     align-items: center;
+    flex-basis: 230px;
 }
 
 .slash-volume {
@@ -262,7 +266,7 @@ a {
 
 .main-content {
     flex-grow: 1;
-    overflow: auto;
+    overflow-y: auto;
     width: calc(100% - 230px);
 }
 
@@ -291,6 +295,7 @@ a {
     font-weight: 700;
     font-size: 13px;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .title-recently {
