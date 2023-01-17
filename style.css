@@ -41,6 +41,21 @@ a {
 
 /* Strart sidebar */
 
+.sidebar {
+    background-color: black;
+    flex-shrink: 0;
+    overflow: hidden;
+    flex-basis: 230px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-bottom: 0;
+    position: relative;
+}
+
 .logo {
     width: 130px;
 }
@@ -58,6 +73,10 @@ a {
     align-items: end;
     gap: 10px;
     padding: 5px 0;
+}
+
+.list-menu a {
+    display: contents;
 }
 
 .playlist {
@@ -106,7 +125,6 @@ a {
     font-size: 18px;
     align-items: center;
     font-weight: 700;
-    margin-bottom: -20px;
 }
 
 .icon-person {
@@ -117,9 +135,18 @@ a {
 }
 
 .list-menu ::before {
-    height: 10px;
+    display: block;
+    content: " ";
+    height: 30px;
     width: 3px;
     background-color: var(--green);
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.list-menu:hover ::before{
+    opacity: 1;
 }
 
 /* HOVER SIDERBAR */
@@ -183,18 +210,7 @@ a {
     overflow: hidden;
 }
 
-.sidebar {
-    background-color: black;
-    flex-shrink: 0;
-    overflow: hidden;
-    flex-basis: 230px;
-    display: flex;
-    color: white;
-    flex-direction: column;
-    padding: 20px;
-    justify-content: space-between;
-    font-weight: 600;
-}
+
 
 
 
