@@ -116,6 +116,12 @@ a {
     aspect-ratio: 1;
 }
 
+.list-menu ::before {
+    height: 10px;
+    width: 3px;
+    background-color: var(--green);
+}
+
 /* HOVER SIDERBAR */
 
 .list-menu a:hover,
@@ -383,6 +389,7 @@ a {
 
 .album {
     display: flex;
+    position: relative;
 }
 
 .album img {
@@ -488,11 +495,6 @@ a {
     opacity: 1;
 }
 
-.container-song,
-.container-artpopular figure,
-.container-johndoe figure{
-    position: relative;
-}
 
 .container-song i,
 .container-artpopular i,
@@ -500,8 +502,8 @@ a {
     color: white;
     opacity: 0;
     position: absolute;
-    left: 60px;
-    top: 60px;
+    left: 40%;
+    top: 40%;
 }
 
 .container-song:hover {
