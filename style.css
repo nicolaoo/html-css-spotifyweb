@@ -428,11 +428,40 @@ a {
 }
 
 .border-green {
-    background-color: green;
+    background-color: var(--green);
     height: 4px;
     width: 30%;
     border-radius: 999px;
     margin: auto;
+}
+
+.container-song,
+.container-artpopular figure,
+.container-johndoe figure{
+    position: relative;
+}
+
+.container-song i,
+.container-artpopular i,
+.container-johndoe i {
+    color: white;
+    opacity: 0;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.container-song i:hover,
+.container-johndoe i:hover,
+.container-artpopular i:hover {
+    display: block;
+    opacity: 0.9;
+}
+
+.container-song:hover,
+.container-johndoe figure:hover,
+.container-artpopular figure:hover {
+    opacity: 0.5;
 }
 
 @media screen and (max-width:1100px) {
