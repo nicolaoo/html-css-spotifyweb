@@ -335,6 +335,9 @@ a {
     justify-content: end;
     background-color: var(--blacklight);
     padding: 20px;
+    position: sticky;
+    z-index: 1;
+    top: 0px
 }
 
 .row-upgrade a {
@@ -483,8 +486,8 @@ a {
     color: white;
     opacity: 0;
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 60px;
+    top: 60px;
 }
 
 .container-song i:hover,
