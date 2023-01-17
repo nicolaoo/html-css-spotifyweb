@@ -269,10 +269,18 @@ a {
     padding: 0px 50px;
 }
 
+/* HOVER ROW PLAYER */
 
-@media screen and (max-width:900px) {
-   
+.icon-sinistersong a:hover {
+    color: white;
 }
+
+.icon-hover-play:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* HOVER ROW PLAYER */
 
 @media screen and (max-width:730px) {
     .row-played {
@@ -447,8 +455,8 @@ a {
 /* HOVER MAIN CONTENT */
 
 .row-upgrade a:hover {
-   padding: 20px 45px;
-   transition: 0.5s;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 .list-nav a:hover {
