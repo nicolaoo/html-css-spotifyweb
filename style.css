@@ -46,7 +46,7 @@ a {
 }
 
 .icon-menu {
-    width: 20px;
+    width: 30px;
 }
 
 .menu {
@@ -376,6 +376,14 @@ a {
     text-align: center;
     gap: 15px;
     padding-right: 30px;
+}
+
+.album {
+    display: flex;
+}
+
+.album img {
+    flex-grow: 1;
 }
 
 .container-song h4 {
