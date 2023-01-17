@@ -461,18 +461,31 @@ a {
     width: 30%;
     border-radius: 999px;
     margin: auto;
+    opacity: 0;
+}
+
+.border-green-first {
+    background-color: var(--green);
+    height: 4px;
+    width: 30%;
+    border-radius: 999px;
+    margin: auto;
 }
 
 /* HOVER MAIN CONTENT */
 
 
-.row-upgrade a:hover {
+.row-upgrade a:hover  {
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
 }
 
 .list-nav a:hover {
     color: white;
+}
+
+.list-nav a:hover .border-green {
+    opacity: 1;
 }
 
 .container-song,
