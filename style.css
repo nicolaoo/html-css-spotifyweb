@@ -314,11 +314,11 @@ a {
     transform: scale(1.1);
 }
 
-.slash-white:hover {
+.slash-song:hover .slash-white{
     background-color: var(--green);
 }
 
-.slash-white:hover .point-circle{
+.slash-song:hover .point-circle{
     opacity: 1;
 }
 
